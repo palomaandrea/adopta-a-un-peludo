@@ -1,0 +1,22 @@
+/* Ejemplo de estilos para cambiar el tamaño de las imágenes */
+.carousel-item img {
+    width: 50%;
+    /* Cambia el valor según tus necesidades */
+    height: auto;
+    /* Esto mantiene la proporción de la imagen */
+}
+
+.img-fixed-height {
+    height: 300px;
+    /* Ajusta este valor según el tamaño deseado */
+    object-fit: cover;
+    /* Esto ayuda a mantener la relación de aspecto de la imagen */
+}
+
+/* Estilos para las imágenes del carrusel */
+.carousel-inner img {
+    height: 400px;
+    /* Ajusta este valor según el tamaño deseado */
+    object-fit: cover;
+    /* Esto ayuda a mantener la relación de aspecto de la imagen */
+}
